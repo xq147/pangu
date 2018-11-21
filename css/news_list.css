@@ -1,0 +1,335 @@
+body {
+	font-family: "Microsoft YaHei";
+	font-size:12px;
+	width:100%;
+	height:100%;
+	margin: 0px;
+	padding:0px;
+
+}
+a {
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+}
+/*  顶部欢迎语开始**/
+.top {
+	height: 28px;
+	background: #212226;
+ }
+.top-content {
+ 	color: #999999;
+	line-height: 28px;
+	width: 1000px;
+	margin: 0 auto;
+ }
+
+.logo-content {
+	width: 1000px;
+	height:100px;
+	background: #ffffff;
+	margin:0 auto;
+}
+.logo01 {
+	float: left;
+}
+.tel {
+	background: url(../images/tel01.png);
+	background-repeat: no-repeat;
+	padding-left: 38px;
+	margin-top: 30px;
+	float:right;
+}
+.num {
+	line-height: 36px;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*  顶部欢迎语结束**/
+/*  导航开始**/
+.nav {
+	height: 53px;	
+	margin:0px;
+	padding:0px;
+	background-color: #212226;
+
+}
+.nav-content {
+	width: 1000px;
+	height:51px;
+	margin:0px auto;
+	padding:0px;
+	// background:red;
+	overflow:hidden;
+}
+table {
+	margin:0px;
+	padding:0px;
+}
+.nav01 {
+	width: 1000px;
+	margin:0px;
+	padding:0px;
+}
+.nav01 td {
+	height: 50px;
+}
+.nav01  a {
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 50px;	
+	padding: 0 10px;
+	height: 49px;
+	display: block;
+}
+.nav01 a:hover {
+	border-bottom: 1px solid red;
+}
+.nav01-home {
+	border-bottom: 1px solid red;
+	display: block;	
+	height: 49px;
+}
+/*  导航结束**/
+.p-height {
+	magrgin:0px;
+	line-height:20px;
+}
+/*  banner开始***/
+.banner {
+	height:300px;
+
+	background:url(../images/banner01.png);
+	background-repeat:no-repeat;
+}
+/*  banner结束***/
+/* 中间 **************************************************/
+.main {
+	height:757px;
+}
+.content {
+	width:1000px;
+	height:757px;
+	margin:0 auto;
+	// background:red;
+}
+.content01 {
+	width: 1000px;
+	height:40px;
+	margin-top:47px;
+	border-bottom:2px solid #ededed;
+}
+.up01 {
+	width:130px;
+	height:40px;
+	font-size:22px;
+	color:#323338;
+	border-bottom:2px solid #323338;
+	float:left;
+}
+.up02 {
+	width:250px;
+	height:30px;
+	text-align:right;
+	float:right;
+}
+.conten02 {
+	width: 1000px;
+	height:737px;
+	font-size:13px;
+	line-height:26px;
+	margin-top:35px;
+	
+}
+.conten02-text01 {
+	// height:71px;
+	margin-left:40px;
+	border-bottom:1px dashed  #cccccc;
+}
+.conten02 p{
+	font-size:12px;
+	color:#666666;
+}
+
+u {
+	font-size::;px;
+	font-weight:bold;
+}
+u a{
+		color:#000000;
+}
+
+.content03 {
+	width:200px;
+	height: 26px;
+	margin: 0 auto;
+}
+.conten02-num {
+	width:220px;
+	height: 26px;
+	margin:auto;
+}
+.num1 {
+	display:block;
+	width:25px;
+	height: 26px;
+	text-align:center;
+	border:1px solid #dddddd;
+	background:#000000;
+	color: #ffffff;
+	margin-left:11px;
+	margin-top:15px;
+	// color:#333333;
+	float:left;
+}
+.num2 {
+	width:25px;
+	height: 26px;
+	text-align:center;
+	border:1px solid #dddddd;
+	color:#333333;
+	margin-left:11px;
+	margin-top:15px;
+	float:left;
+}
+.num3 {
+	width:54px;
+	height: 26px;
+	text-align:center;
+	border:1px solid #dddddd;
+	color:#333333;
+	margin-left:11px;
+	margin-top:15px;
+	float:left;
+}
+
+/*  链接**************************************************/
+.lianjie {
+	height:80px;
+	border-top:1px solid #e5e5e5; /*上边框线*/
+    border-bottom:1px solid #e5e5e5;    /*下边框线*/
+	background:#ffffff;
+}
+.lianjie-content {
+	width: 1000px;
+	height: 80px;
+	margin:0 auto;
+}
+.lianjie-p {
+	
+}
+.lianjie-p p{
+	font-size:16px;
+	padding-top:22px;
+	color:#7d7d7d;
+}
+/* 底部**************************************************/
+.footer {
+	height:385px;
+	background:#212226;
+}
+.footer-content {
+	width:1000px;
+	height:385px;
+	margin:0 auto;
+	// background:red;
+}
+.footer01 {
+	width:1000px;
+	height:66px;//44
+	// background:#28292c;
+	padding-top:22px;
+}
+.footer01 ul {
+	height:44px;//44
+	margin: 0 auto;
+	background:#28292c;
+	list-style:none;
+}
+
+.footer01 ul li{
+	width:80px;
+	padding-top:14px;
+	float:left;
+}
+.footer01 a {
+	color: #666666;
+}
+.footer02 {
+	height:263px;
+	// margin-top:24px;//34px;
+	// background:red;
+}
+.footer02-left {
+	width:457px;
+	height:263px;
+	margin-right:95px;
+	float:left;
+}
+.footer02-right {
+	width:385px;
+	height:263px;
+	float:left;
+}
+.footer02-left p {
+	width:457px;
+	color:#c2c2c2;
+}
+.footer02-left hr {
+	background:#46484b;
+}
+
+#footer-tel {
+	font-size:22px;
+	// line-height:38px;
+	
+}
+#footer-address {
+	font-size:13px;
+	line-height:38px;
+}
+#footer-address img {
+	margin-right:10px;
+}
+
+#footer-map{
+	font-size:13px;
+	line-height:38px;
+}
+#footer-map img {
+	margin-right:9px;
+}
+#footer-banquan {
+	line-height:28px;
+}
+.footer02-right01 {
+	font-size:16px;
+	line-height:23px;
+	margin-right:58px;
+	float:left;
+}
+.footer02-right01 p{
+	margin-top:23px;
+}
+.footer02-right02 {
+
+	font-size:16px;
+	line-height:23px;
+	float:right;
+}
+.footer02-right p{
+	 color:#c2c2c2;
+}
+/*  二维码浮动**************************************************/
+#main {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#fudong {
+	width:60px;
+	height:200px;
+	position:fixed;
+	right:14px;
+	top:560px;
+}
